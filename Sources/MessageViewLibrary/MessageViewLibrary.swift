@@ -151,8 +151,8 @@ public class MessageViewLibrary:UIView {
     private var unshowedMessages: [Any] = []
     
     
-    private var errorImage = UIImage(named: "warning")
-    private var succsessImage = UIImage(named: "success")
+    private var errorImage = UIImage(named: "warning", in: Bundle.module, compatibleWith: nil)
+    private var succsessImage = UIImage(named: "success", in: Bundle.module, compatibleWith: nil)
     private var errorColor: UIColor = .red
     private var succsessColor: UIColor = .green
     
