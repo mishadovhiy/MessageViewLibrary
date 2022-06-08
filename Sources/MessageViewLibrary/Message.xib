@@ -16,7 +16,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFq-Jy-slj" customClass="View" customModule="MovieList" customModuleProvider="target">
-                    <rect key="frame" x="20" y="44" width="51" height="35"/>
+                    <rect key="frame" x="20" y="44" width="66" height="35"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKU-Nn-Cd1">
                             <rect key="frame" x="5" y="2" width="0.0" height="0.0"/>
@@ -24,8 +24,8 @@
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DQE-g7-P1t">
-                            <rect key="frame" x="7" y="5" width="37" height="25"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DQE-g7-P1t">
+                            <rect key="frame" x="12" y="5" width="42" height="25"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning" translatesAutoresizingMaskIntoConstraints="NO" id="dTo-at-aOv">
                                     <rect key="frame" x="0.0" y="4" width="17" height="17"/>
@@ -35,7 +35,7 @@
                                     </constraints>
                                 </imageView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="jW7-Lt-Dyn">
-                                    <rect key="frame" x="22" y="3.5" width="15" height="18"/>
+                                    <rect key="frame" x="27" y="3.5" width="15" height="18"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDj-92-gdY">
                                             <rect key="frame" x="0.0" y="0.0" width="15" height="18"/>
@@ -60,9 +60,9 @@
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="EGe-My-koP"/>
                         <constraint firstAttribute="width" relation="lessThanOrEqual" constant="305" id="S3E-N7-pD1"/>
                         <constraint firstItem="bKU-Nn-Cd1" firstAttribute="leading" secondItem="GFq-Jy-slj" secondAttribute="leading" constant="5" id="Z1o-fA-WPK"/>
-                        <constraint firstAttribute="trailing" secondItem="DQE-g7-P1t" secondAttribute="trailing" constant="7" id="cB1-OR-twK"/>
+                        <constraint firstAttribute="trailing" secondItem="DQE-g7-P1t" secondAttribute="trailing" constant="12" id="cB1-OR-twK"/>
                         <constraint firstItem="bKU-Nn-Cd1" firstAttribute="top" secondItem="GFq-Jy-slj" secondAttribute="top" constant="2" id="gi1-Xt-BSw"/>
-                        <constraint firstItem="DQE-g7-P1t" firstAttribute="leading" secondItem="GFq-Jy-slj" secondAttribute="leading" constant="7" id="qXA-bE-fuE"/>
+                        <constraint firstItem="DQE-g7-P1t" firstAttribute="leading" secondItem="GFq-Jy-slj" secondAttribute="leading" constant="12" id="qXA-bE-fuE"/>
                         <constraint firstAttribute="bottom" secondItem="DQE-g7-P1t" secondAttribute="bottom" constant="5" id="vh9-05-hFG"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
